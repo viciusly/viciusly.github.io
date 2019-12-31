@@ -1,0 +1,30 @@
+html {
+  margin:0;
+  background: url('/img/bg.png');
+  font-family: 'Open Sans', sans-serif;
+  background-color: #03A9F4;
+}
+#main {
+  position:relative;
+  top:100px;
+  margin:0 auto;
+  width: 660px;
+  height: 640px;
+  background:#d7d7d7;
+  border-radius:2px;
+  border:1px solid #222;
+  box-shadow:1px 1px #222,
+    inset 1px 1px #fff;
+  text-shadow:0 1px #ededed;
+}
+
+
+#content {
+  position:absolute;
+  padding:10px;
+  top:10px;
+  left:10px;
+  width: 600px;
+  height:280px;
+  text-shadow:none;
+}
